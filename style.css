@@ -1,0 +1,40 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    border: 1px solid black;
+    /* height: 35rem; */
+}
+
+.display {
+    width: 20rem;
+    height: 5rem;
+    margin-bottom: 5px;
+}
+
+.input_value {
+    width: 19.5rem;
+    height: 5rem;
+    text-align: right;
+    font-size: 1.5rem;
+    /* padding-right: 10px; */
+}
+
+.input_value {
+  color: black;
+  background-color: white;
+  font-size: 24px;
+}
+
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.but {
+    height: 50px;
+    width: 25%;
+}
